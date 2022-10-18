@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+body {
+    font-size: 18px;
+    background: rgb(228,224,231);
+    background: radial-gradient(circle, rgba(228,224,231,1) 0%, rgba(45,0,99,1) 100%);
+    line-height: 30px;
+}
+
+h1, h2, h3 {
+    font-size: 1.5em;
+}
+
+h4 {
+    font-size: 1.2em;
+}
+
+#container1{
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+}
+
+.container2:hover{
+    font-weight: bold;
+}
+
+.container2{
+    display: inline-block;
+}
+
+#containerportfolio{
+    width: 100%;
+    padding-top: 100px;
+    text-align: center;
+    padding-bottom: 80px;
+    background-image: url(Images/purple.jpg);
+    background-size: cover;
+    background-position: 30%;
+}
+
+#containerportfolio1{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    margin-bottom: 20px;
+    font-weight: 900;
+}
+
+#containerportfolio2{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.button {
+    background-color: rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 3px 8px;
+    text-decoration: none;
+    line-height: 38px;
+}
+
+.picture{
+    border-radius: 1000px;
+    text-decoration: none;
+}
