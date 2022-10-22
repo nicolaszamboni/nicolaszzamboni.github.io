@@ -22,7 +22,7 @@
 
   header i {
     color:#445964;
-    margin-left: 150px;
+    margin-left: 180px;
     margin-top: 72px;
     margin-right: 19px;
   }
@@ -42,8 +42,7 @@
   }
 
   main {
-    margin-left: 150px;
-    margin-top: 130px;
+    margin-left: 180px;
     width: 300px;
     color:#445964;
   }
@@ -72,7 +71,7 @@
   }
 
   footer {
-    margin-left: 150px;
+    margin-left: 180px;
 
   }
 
@@ -81,11 +80,16 @@
     margin-right: 15px;
   }
 
-  main section {
+  main{
     display: flex;
     justify-content:space-between;
   }
 
   #containerImage{
     margin-left: 290px;
+    margin-top: 90px;
+  }
+
+  #containerTitulo{
+    margin-top: 130px;
   }
