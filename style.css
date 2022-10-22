@@ -1,74 +1,91 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
   }
 
-body {
+  body {
+    background-color: #E5E5E5;
+  }
+
+  header{
+    display: flex;
+  }
+
+  header h1 {
+    color: #445964;
+    font-weight: 900px;
+    font-size: 29px;
+    line-height: 42px;
+    margin-top: 69px;
+  }
+
+  header i {
+    color:#445964;
+    margin-left: 150px;
+    margin-top: 72px;
+    margin-right: 19px;
+  }
+
+  header nav a{
+    color: #445964;
+    font-weight: 500px;
+    font-size: 13px;
+    font-style: normal;
+    text-decoration: none;
+    margin-right: 80px;
+  }
+
+  header nav{
+    margin-top: 78px;
+    margin-left: 200px;
+  }
+
+  main {
+    margin-left: 150px;
+    margin-top: 130px;
+    width: 300px;
+    color:#445964;
+  }
+
+  main h2{
+    font-weight: 500;
     font-size: 18px;
-    background: rgb(228,224,231);
-    background: radial-gradient(circle, rgba(228,224,231,1) 0%, rgba(45,0,99,1) 100%);
-    line-height: 30px;
-}
+    line-height: 28px;
+  }
 
-h1, h2, h3 {
-    font-size: 1.5em;
-}
-
-h4 {
-    font-size: 1.2em;
-}
-
-#container1{
-    background-color: black;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-size: 20px;
-    text-align: center;
-    position: fixed;
-    width: 100%;
-}
-
-.container2:hover{
-    font-weight: bold;
-}
-
-.container2{
-    display: inline-block;
-}
-
-#containerportfolio{
-    width: 100%;
-    padding-top: 100px;
-    text-align: center;
-    padding-bottom: 80px;
-    background-image: url(Images/purple.jpg);
-    background-size: cover;
-    background-position: 30%;
-}
-
-#containerportfolio1{
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-    margin-bottom: 20px;
+  main h1{
     font-weight: 900;
-}
+    font-size: 50px;
+    line-height: 50px;
+  }
 
-#containerportfolio2{
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-    font-weight: bold;
-}
+  main h3{
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 28px;
+    color: white;
+    margin-top: 100px;
+    background: #263138;
+    border-radius: 20px;
+    text-align: center;
+  }
 
-.button {
-    background-color: rgb(255, 255, 255);
-    color:rgb(0, 0, 0);
-    border-radius: 10px;
-    padding: 3px 8px;
-    text-decoration: none;
-    line-height: 38px;
-}
+  footer {
+    margin-left: 150px;
 
-.picture{
-    border-radius: 1000px;
-    text-decoration: none;
-}
+  }
+
+  footer i {
+    color:#445964;
+    margin-right: 15px;
+  }
+
+  main section {
+    display: flex;
+    justify-content:space-between;
+  }
+
+  #containerImage{
+    margin-left: 290px;
+  }
